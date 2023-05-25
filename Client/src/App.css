@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@layer base {
+  body {
+    @apply font-roboto;
+  }
+  h1 {
+    @apply text-xl;
+  }
+  h2 {
+    @apply text-xl text-primary font-semibold;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  h4 {
+    @apply text-7xl text-lime-200;
+  }
+  h5 {
+    @apply text-7xl;
+  }
+  h6 {
+    @apply text-9xl font-semibold;
+  }
+}
+@layer components {
+  .h1 {
+    @apply text-6xl;
+  }
+  .btn {
+    @apply border border-primary py-2 px-2 rounded font-semibold ml-2 hover:bg-primary hover:text-white;
+  }
+  .navbar {
+    @apply hover:text-white;
+  }
+  .input-box {
+    @apply;
+  }
+}
+.slick-arrow.slick-prev::before {
+  color: rgb(255, 0, 150);
+}
+.slick-arrow.slick-next::before {
+  color: rgb(255, 0, 150);
+}
