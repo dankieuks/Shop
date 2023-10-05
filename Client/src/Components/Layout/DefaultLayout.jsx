@@ -6,7 +6,7 @@ function DefaultLayout({ children }) {
   return (
     <div className=" gird grid-cols-6  ">
       <Header />
-      <main className="col-span-6 pb-6 mx-0 bg-cyan-100 md:mx-20">
+      <main className="col-span-6 pb-6 mx-0 bg-cyan-100 md:mx-36">
         {children}
       </main>
       <Footer />

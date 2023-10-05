@@ -22,11 +22,11 @@ export function Banner() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplayspeeds: 3000,
+    autoplayspeeds: 1000,
 
     responsive: [
       {
@@ -47,7 +47,7 @@ export function Banner() {
 
       <Slider
         {...settings}
-        className="relative top-[-30px] mx-7 md:mx-20 md:top-[-75px]    lg:mx-24 lg:top-[-88px] "
+        className="relative top-[-30px] mx-7  md:mx-20 md:top-[-75px]  lg:mx-24 lg:top-[-88px] "
       >
         {bannerData.map((banner, index) => (
           <div

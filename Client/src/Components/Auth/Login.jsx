@@ -60,7 +60,7 @@ function Login({ handleCardClick }) {
             type="Email"
             value={email}
             placeholder="Email"
-            className="w-full h-[45px] pl-10 rounded-lg text-sm"
+            className="w-full h-[45px] px-10 rounded-lg text-sm"
             autoComplete="email"
             required
             onChange={onChangeEmail}
@@ -76,7 +76,7 @@ function Login({ handleCardClick }) {
           <input
             type={showPassWord ? "text" : "password"}
             placeholder="Password"
-            className="w-full h-[45px] pl-10 rounded-lg text-sm"
+            className="w-full h-[45px] px-10 rounded-lg text-sm"
             required
             onChange={onChangePassword}
           />
